@@ -26,6 +26,38 @@ val urllivros = """{"PP": "https://ellenwhiteaudio.org/pt/patriarcas-e-profetas/
 "PJ": "https://ellenwhiteaudio.org/pt/parabolas-de-jesus/",
 "GC": "https://ellenwhiteaudio.org/pt/grande-conflito/"}"""
 
+val listaA = listOf("No princípio",
+    "criou Deus", "os céus e a Terra",
+    "E a Terra era sem forma e vazia",
+    "e o Espírito de Deus pairava sobre a face das águas",
+    "E disse Deus: Haja luz, e houve luz",
+    "e viu Deus que era boa a luz",
+    "E fez Deus separação entre a luz e as trevas",
+    "E chamou Deus à luz Dia, e às trevas chamou Noite",
+    "E foi a tarde e a manhã, o dia primeiro",
+    "E disse Deus: Haja uma expansão no meio das águas",
+    "e haja separação entre águas e águas",
+    "E fez Deus a expansão, e separou as águas que estavam debaixo da expansão",
+    "das águas que estavam sobre a expansão",
+    "E assim foi",
+    "E chamou Deus à expansão Céus",
+    "E foi a tarde e a manhã, o dia segundo",
+    "E disse Deus: Ajuntem-se as águas debaixo dos céus num lugar",
+    "e apareça a porção seca",
+    "E assim foi",
+    "E chamou Deus à porção seca Terra",
+    "e ao ajuntamento das águas chamou Mares",
+    "E viu Deus que era bom",
+    "E disse Deus: Produza a Terra relva, ervas que deem semente",)
+
+val listaB = listOf(
+    "Bem-aventurados os que choram porque serão consolados",
+    "Bem-aventurados os misericordiosos porque alcançarão a misericórdia",
+    "Bem-aventurados os limpos de coração porque verão a Deus",
+    "Bem-aventurados os pacificadores porque serão chamados filhos de Deus",
+    "Bem-aventurados os perseguidos por causa da justiça porque deles é o Reino dos céus",
+)
+
 //val urlellenwhite = "https://ellenwhiteaudio.org/pt/ebooks-egw/";
 
 val livros_biblia_refs= arrayOf(
@@ -500,6 +532,7 @@ fun getTituloCapituloESPorReferencia(dia: String): String {
     val valor = mapa[dia]?.NOMES ?: "Titulo não encontrado"
     return valor
 }
+
 
 
 
